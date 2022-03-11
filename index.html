@@ -4,7 +4,7 @@
 
 <h2>基本資料</h2>
 
-<form>  
+<form action="/action_page.php"> <!--提交按鈕-->  
   <label for="ID">帳號:</label><br>
   <input type="text" id="ID" name="ID" value=""><br>
   
@@ -12,14 +12,31 @@
   <input type="password" id="password" name="password" value=""><br>
   
   <label for="name">玩家名稱:</label><br>
-  <input type="text" id="name" name="name" value="Player"><br>
+  <input type="text" id="name" name="name" value=""><br>
   
-  <label for="sex">性別:</label><br>
-  <input type="radio" id="sex" name="m_sex" value="">
-  <label for="sex">男</label><br>
-  <input type="radio" id="sex" name="f_sex" value="">
-  <label for="sex">女</label>
+  <label for="sex">性別:</label><br>  
+  <input type="radio" id="man" name="sex" value="">
+  <label for="man">男</label><br>
+  <input type="radio" id="female" name="sex" value="">
+  <label for="female">女</label><br>
   
+  <label for="blood">血型:</label><br>  
+  <input type="radio" id="" name="blood" value="">
+  <label for="A">A</label><br>
+  <input type="radio" id="" name="blood" value="">
+  <label for="B">B</label><br>
+  <input type="radio" id="" name="blood" value="">
+  <label for="AB">AB</label><br>
+  <input type="radio" id="" name="blood" value="">
+  <label for="O">O</label><br>
+  
+  <label for="nameID">身分證:</label><br>
+  <input type="text" id="nameID" name="nameID" value=""><br>
+  
+  <label for="name">信箱:</label><br>
+  <input type="text" id="name" name="name" value=""><br>
+  
+  <input type="submit" value="送出"> <!--提交按鈕-->
 </form>
 
 </body>
